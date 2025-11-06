@@ -1,7 +1,14 @@
 import "./globals.css";
+import { Quicksand } from "next/font/google";
+
+const quicksand = Quicksand({
+  subsets: ["latin"],
+  weight: ["400", "500", "600", "700"],
+});
+
 export const metadata = {
   title: 'Receipe Finder',
-  description: 'Find your favourite food receipe with us.',
+  description: 'Find your favorite recipes by type',
 }
 
 export default function RootLayout({
@@ -11,7 +18,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body>{children}</body>
+      <body className="font-sans">{children}</body>
     </html>
   )
 }
