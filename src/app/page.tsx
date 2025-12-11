@@ -1,8 +1,18 @@
+import Image from "next/image";
 import Link from "next/link";
+import HomeBackGround from "@/app/images/home-background.jpg";
 
 export default function HomePage() {
   return (
-    <div className="relative font-sans flex flex-col items-center bg-[url(./images/home-background.jpg)] bg-center bg-fixed bg-cover text-white h-screen justify-center font-bold gap-5">
+    <div className="relative font-sans flex flex-col items-center text-white h-screen justify-center font-bold gap-5">
+      <Image
+        src={HomeBackGround}
+        alt="Find Receipe home"
+        fill
+        priority
+        sizes="100vw"
+        className="object-cover object-center"
+      />
       <div className="absolute inset-0 bg-black/40"></div>
       <div className="relative flex flex-col items-center justify-center h-full text-white text-center gap-5">
         <h1 className="text-5xl m-10">Find the Perfect Recipe for Every Mood 😋</h1>
