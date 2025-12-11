@@ -1,7 +1,18 @@
 import IdlyImage from "@/app/images/meals/idly.jpg";
 import DosaImage from "@/app/images/meals/dosa.jpeg";
 import UpmaImage from "@/app/images/meals/upma.jpeg";
-
+import ChappatiImage from "@/app/images/meals/chappathi.jpg";
+import Chicken65Image from "@/app/images/meals/chicken_65.jpg";
+import ChickenBiriyaniImage from "@/app/images/meals/chicken_biriyani.jpg";
+import ChickenCurryImage from "@/app/images/meals/chicken_curry.jpg";
+import CurdRiceImage from "@/app/images/meals/curd_rice.jpg";
+import FishFryImage from "@/app/images/meals/fish_fry.jpg";
+import PizzaImage from "@/app/images/meals/pizza.jpg";
+import PongalImage from "@/app/images/meals/pongal.jpg";
+import ParottaImage from "@/app/images/meals/poratta.jpg";
+import SambarSathamImage from "@/app/images/meals/sambar_sadam.jpg";
+import VegBiriyaniImage from "@/app/images/meals/veg_biriyani.jpg";
+import vegManchurianImage from "@/app/images/meals/veg_manchurian.jpg";
 
 export const categories = {
   mealType: [
@@ -65,6 +76,7 @@ export const meals = [
       {
         name: "Veg Biryani",
         prepTime: "45 mins",
+        imageSrc: VegBiriyaniImage,
         ingredients: [
           "Basmati rice",
           "Mixed vegetables",
@@ -78,6 +90,7 @@ export const meals = [
       {
         name: "Sambar Rice",
         prepTime: "35 mins",
+        imageSrc:SambarSathamImage,
         ingredients: [
           "Rice",
           "Toor dal",
@@ -93,6 +106,7 @@ export const meals = [
       {
         name: "Curd Rice",
         prepTime: "10 mins",
+        imageSrc:CurdRiceImage,
         ingredients: [
           "Cooked rice",
           "Curd",
@@ -107,6 +121,7 @@ export const meals = [
       {
         name: "Chicken Biryani",
         prepTime: "60 mins",
+        imageSrc: ChickenBiriyaniImage,
         ingredients: [
           "Chicken",
           "Basmati rice",
@@ -129,6 +144,7 @@ export const meals = [
       {
         name: "Chapati",
         prepTime: "25 mins",
+        imageSrc: ChappatiImage,
         ingredients: ["Wheat flour", "Water", "Salt", "Oil (optional)"],
         instructions:
           "Knead wheat flour, salt, and water into a soft dough. Rest for 10 minutes. Roll into thin circles and cook on a hot tawa until brown spots appear on both sides. Serve hot with curry.",
@@ -136,6 +152,7 @@ export const meals = [
       {
         name: "Pongal",
         prepTime: "35 mins",
+        imageSrc: PongalImage,
         ingredients: ["Rice", "Moong dal", "Pepper", "Cumin", "Ghee", "Salt"],
         instructions:
           "Cook rice and moong dal together with enough water until very soft. Heat ghee in a pan, add pepper and cumin and let them splutter. Pour this over the cooked mixture, add salt, mix well, and serve hot with chutney or sambar.",
@@ -143,6 +160,7 @@ export const meals = [
       {
         name: "Parotta",
         prepTime: "40 mins",
+        imageSrc: ParottaImage,
         ingredients: ["Maida", "Oil", "Water", "Salt"],
         instructions:
           "Prepare a soft dough using maida, salt, water, and oil. Rest for 20 minutes. Roll into thin sheets, fold and coil to form layers, then roll again and cook on a hot tawa with a little oil until flaky and golden. Serve with salna.",
@@ -150,6 +168,7 @@ export const meals = [
       {
         name: "Chicken 65",
         prepTime: "30 mins",
+        imageSrc: Chicken65Image,
         ingredients: [
           "Boneless chicken",
           "Yogurt",
@@ -171,6 +190,7 @@ export const meals = [
       {
         name: "Dosa",
         prepTime: "20 mins",
+        imageSrc:DosaImage,
         ingredients: ["Rice batter", "Urad dal", "Salt", "Oil"],
         instructions:
           "Heat a non-stick pan on medium flame. Pour a ladle of batter and spread it thin in a circular motion. Drizzle oil around the edges and cook until crispy and golden. Fold and serve hot with chutney or sambar.",
@@ -178,6 +198,7 @@ export const meals = [
       {
         name: "Idli",
         prepTime: "15 mins",
+        imageSrc: IdlyImage,
         ingredients: ["Idli batter", "Oil"],
         instructions:
           "Grease idli molds with oil and pour batter. Steam for 10–12 minutes until soft and fluffy. Cool slightly, demold, and serve with chutney or sambar.",
@@ -185,6 +206,7 @@ export const meals = [
       {
         name: "Veg Biryani",
         prepTime: "45 mins",
+        imageSrc: VegBiriyaniImage,
         ingredients: [
           "Basmati rice",
           "Mixed vegetables",
@@ -198,6 +220,7 @@ export const meals = [
       {
         name: "Chapati",
         prepTime: "25 mins",
+        imageSrc: ChappatiImage,
         ingredients: ["Wheat flour", "Water", "Salt", "Oil (optional)"],
         instructions:
           "Knead wheat flour, salt, and water into a soft dough. Rest for 10 minutes. Roll into thin circles and cook on a hot tawa until brown spots appear on both sides. Serve hot with curry.",
@@ -205,6 +228,7 @@ export const meals = [
       {
         name: "Margherita Pizza",
         prepTime: "35 mins",
+        imageSrc: PizzaImage,
         ingredients: [
           "Pizza base",
           "Tomato sauce",
@@ -225,6 +249,7 @@ export const meals = [
       {
         name: "Chicken Biryani",
         prepTime: "60 mins",
+        imageSrc: ChickenBiriyaniImage,
         ingredients: [
           "Chicken",
           "Basmati rice",
@@ -241,6 +266,7 @@ export const meals = [
       {
         name: "Chicken Curry",
         prepTime: "40 mins",
+        imageSrc: ChickenCurryImage,
         ingredients: [
           "Chicken",
           "Onion",
@@ -256,6 +282,7 @@ export const meals = [
       {
         name: "Chicken 65",
         prepTime: "30 mins",
+        imageSrc: Chicken65Image,
         ingredients: [
           "Boneless chicken",
           "Yogurt",
@@ -271,6 +298,7 @@ export const meals = [
       {
         name: "Fish Fry",
         prepTime: "25 mins",
+        imageSrc: FishFryImage,
         ingredients: [
           "Fish pieces",
           "Red chili powder",
@@ -291,6 +319,7 @@ export const meals = [
       {
         name: "Dosa",
         prepTime: "20 mins",
+        imageSrc: DosaImage,
         ingredients: ["Rice batter", "Urad dal", "Salt", "Oil"],
         instructions:
           "Heat a non-stick pan on medium flame. Pour a ladle of batter and spread it thin in a circular motion. Drizzle oil around the edges and cook until crispy and golden. Fold and serve hot with chutney or sambar.",
@@ -298,6 +327,7 @@ export const meals = [
       {
         name: "Idli",
         prepTime: "15 mins",
+        imageSrc: IdlyImage,
         ingredients: ["Idli batter", "Oil"],
         instructions:
           "Grease idli molds with oil and pour batter. Steam for 10–12 minutes until soft and fluffy. Cool slightly, demold, and serve with chutney or sambar.",
@@ -305,6 +335,7 @@ export const meals = [
       {
         name: "Veg Biryani",
         prepTime: "45 mins",
+        imageSrc: VegBiriyaniImage,
         ingredients: [
           "Basmati rice",
           "Mixed vegetables",
@@ -318,6 +349,7 @@ export const meals = [
       {
         name: "Sambar Rice",
         prepTime: "35 mins",
+        imageSrc: SambarSathamImage,
         ingredients: [
           "Rice",
           "Toor dal",
@@ -333,6 +365,7 @@ export const meals = [
       {
         name: "Chapati",
         prepTime: "25 mins",
+        imageSrc : ChappatiImage,
         ingredients: ["Wheat flour", "Water", "Salt", "Oil (optional)"],
         instructions:
           "Knead wheat flour, salt, and water into a soft dough. Rest for 10 minutes. Roll into thin circles and cook on a hot tawa until brown spots appear on both sides. Serve hot with curry.",
@@ -340,6 +373,7 @@ export const meals = [
       {
         name: "Chicken Biryani",
         prepTime: "60 mins",
+        imageSrc: ChickenBiriyaniImage,
         ingredients: [
           "Chicken",
           "Basmati rice",
@@ -377,6 +411,7 @@ export const meals = [
       },
       {
         name: "Veg Manchurian",
+        imageSrc: vegManchurianImage,
         prepTime: "35 mins",
         ingredients: [
           "Mixed grated vegetables",
@@ -395,6 +430,7 @@ export const meals = [
       {
         name: "Chili Chicken",
         prepTime: "40 mins",
+        imageSrc: Chicken65Image,
         ingredients: [
           "Boneless chicken",
           "Cornflour",
@@ -418,6 +454,7 @@ export const meals = [
       {
         name: "Margherita Pizza",
         prepTime: "35 mins",
+        imageSrc: PizzaImage,
         ingredients: [
           "Pizza base",
           "Tomato sauce",
