@@ -1,3 +1,8 @@
+import IdlyImage from "@/app/images/meals/idly.jpg";
+import DosaImage from "@/app/images/meals/dosa.jpeg";
+import UpmaImage from "@/app/images/meals/upma.jpeg";
+
+
 export const categories = {
   mealType: [
     { code: "bf", displayValue: "Breakfast" },
@@ -22,6 +27,7 @@ export const meals = [
       {
         name: "Dosa",
         prepTime: "20 mins",
+        imageSrc: DosaImage,
         ingredients: ["Rice batter", "Urad dal", "Salt", "Oil"],
         instructions:
           "Heat a non-stick pan on medium flame. Pour a ladle of batter and spread it thin in a circular motion. Drizzle oil around the edges and cook until crispy and golden. Fold and serve hot with chutney or sambar.",
@@ -29,6 +35,7 @@ export const meals = [
       {
         name: "Idli",
         prepTime: "15 mins",
+        imageSrc: IdlyImage,
         ingredients: ["Idli batter", "Oil"],
         instructions:
           "Grease idli molds with oil and pour batter. Steam for 10–12 minutes until soft and fluffy. Cool slightly, demold, and serve with chutney or sambar.",
@@ -36,6 +43,7 @@ export const meals = [
       {
         name: "Upma",
         prepTime: "18 mins",
+        imageSrc: UpmaImage,
         ingredients: [
           "Rava/Sooji",
           "Onion",
@@ -263,7 +271,14 @@ export const meals = [
       {
         name: "Fish Fry",
         prepTime: "25 mins",
-        ingredients: ["Fish pieces", "Red chili powder", "Turmeric", "Lemon juice", "Salt", "Oil"],
+        ingredients: [
+          "Fish pieces",
+          "Red chili powder",
+          "Turmeric",
+          "Lemon juice",
+          "Salt",
+          "Oil",
+        ],
         instructions:
           "Marinate fish pieces with chili powder, turmeric, lemon juice, and salt for 15–20 minutes. Heat oil in a pan and shallow fry the fish on both sides until golden and cooked through. Serve hot with onion slices and lemon.",
       },

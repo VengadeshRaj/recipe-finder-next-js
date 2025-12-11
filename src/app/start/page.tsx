@@ -14,7 +14,7 @@ export default function SelectYourCatogory() {
         className="object-cover object-center"
       />
       <div className="absolute inset-0 bg-black/40"></div>
-      <div className="relative flex flex-col items-center justify-center h-full text-white text-center">
+      <div className="relative flex flex-col items-left justify-center h-full text-white text-center">
         <h1 className="text-5xl mb-5">Select your catogory </h1>
         <Link
           href="meal-type"
