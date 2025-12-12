@@ -17,10 +17,12 @@ export default function Veg() {
       ));
     };
   return (
-    <div className="bg-orange-500 flex flex-col p-5 font-sans font-bold w-full">
-      <h1 className="text-5xl mb-5 text-center text-white">
-        {" "}
-        Here are the few vegetarian food options!
+    <div className="relative flex flex-col p-5 font-sans font-bold w-full">
+       <h1 className="text-3xl mb-5 text-center text-white">
+        Here are some vegetarian options!
+      </h1>
+      <h1 className="text-3xl mb-5 text-center text-white">
+        Pick! Cook! Enjoy!
       </h1>
       <div className="flex flex-row gap-10 flex-wrap">{buildVegFoods()}</div>
     </div>

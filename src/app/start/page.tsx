@@ -14,8 +14,9 @@ export default function SelectYourCatogory() {
         className="object-cover object-center"
       />
       <div className="absolute inset-0 bg-black/40"></div>
-      <div className="relative flex flex-col items-left justify-center h-full text-white text-center">
+      <div className="relative flex flex-col items-center justify-center h-full text-white text-left">
         <h1 className="text-5xl mb-5">Select your catogory </h1>
+        <div>
         <Link
           href="meal-type"
           className="flex flex-row text-3xl gap-2 bg-transparent px-4 py-1 rounded"
@@ -34,6 +35,7 @@ export default function SelectYourCatogory() {
         >
           <span>🥄</span> <div className="hover:underline">Cuisine</div>
         </Link>
+        </div>
       </div>
     </div>
   );

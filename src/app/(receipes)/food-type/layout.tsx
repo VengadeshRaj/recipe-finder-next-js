@@ -1,11 +1,11 @@
 import Image from "next/image";
-import MealTypeImage from "@/app/images/mealtype-background.jpg";
+import FoodTypeImage from "@/app/images/food-type-background.jpg";
 
 export default function Layout({ children }: { children: React.ReactNode }) {
   return (
     <div className="relative w-full min-h-screen font-sans font-bold">
       <Image
-        src={MealTypeImage}
+        src={FoodTypeImage}
         alt="Meal type"
         fill
         priority
