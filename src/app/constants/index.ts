@@ -1,18 +1,39 @@
-import IdlyImage from "@/app/images/meals/idly.jpg";
-import DosaImage from "@/app/images/meals/dosa.jpeg";
-import UpmaImage from "@/app/images/meals/upma.jpeg";
-import ChappatiImage from "@/app/images/meals/chappathi.jpg";
-import Chicken65Image from "@/app/images/meals/chicken_65.jpg";
-import ChickenBiriyaniImage from "@/app/images/meals/chicken_biriyani.jpg";
-import ChickenCurryImage from "@/app/images/meals/chicken_curry.jpg";
-import CurdRiceImage from "@/app/images/meals/curd_rice.jpg";
-import FishFryImage from "@/app/images/meals/fish_fry.jpg";
-import PizzaImage from "@/app/images/meals/pizza.jpg";
-import PongalImage from "@/app/images/meals/pongal.jpg";
-import ParottaImage from "@/app/images/meals/poratta.jpg";
-import SambarSathamImage from "@/app/images/meals/sambar_sadam.jpg";
-import VegBiriyaniImage from "@/app/images/meals/veg_biriyani.jpg";
-import vegManchurianImage from "@/app/images/meals/veg_manchurian.jpg";
+import {
+  IdlyImage,
+  DosaImage,
+  UpmaImage,
+  ChappatiImage,
+  Chicken65Image,
+  ChickenBiriyaniImage,
+  ChickenCurryImage,
+  CurdRiceImage,
+  FishFryImage,
+  PizzaImage,
+  PongalImage,
+  ParottaImage,
+  SambarSathamImage,
+  VegBiriyaniImage,
+  vegManchurianImage,
+  PooriImage,
+  PesarattuImage,
+  LemonRiceImage,
+  PaneerButterMasalaImage,
+  MasalaDosaImage,
+  VegKothuParottaImage,
+  VegPulaoImage,
+  AlooGobiImage,
+  EggCurryImage,
+  MuttonCurryImage,
+  PavBhajiImage,
+  CholeImage,
+  VegNoodlesImage,
+  SpringRollImage,
+  SchezwanRiceImage,
+  ArrabbiataImage,
+  GarlicPizzaImage,
+  WhiteSaucePastaImage,
+  GarlicBreadImage
+} from "@/app/images/meals";
 
 export const categories = {
   mealType: [
@@ -67,6 +88,37 @@ export const meals = [
         instructions:
           "Roast rava lightly and keep aside. Heat oil, splutter mustard seeds, then sauté onion and chili. Add water and salt to boil. Add rava slowly while stirring to avoid lumps. Cook until soft and serve hot.",
       },
+      {
+        name: "Poori Masala",
+        prepTime: "30 mins",
+        imageSrc: PooriImage,
+        ingredients: [
+          "Wheat flour",
+          "Oil",
+          "Potatoes",
+          "Onion",
+          "Green chili",
+          "Turmeric",
+          "Salt",
+        ],
+        instructions:
+          "Knead wheat flour into a stiff dough. Roll small circles and deep fry until puffed. Prepare masala by sautéing onion, chili, and turmeric, then add boiled potatoes. Serve hot with pooris.",
+      },
+      {
+        name: "Pesarattu",
+        prepTime: "25 mins",
+        imageSrc: PesarattuImage,
+        ingredients: [
+          "Green gram",
+          "Ginger",
+          "Green chili",
+          "Cumin",
+          "Oil",
+          "Salt",
+        ],
+        instructions:
+          "Blend soaked green gram with spices to make batter. Pour on a hot pan, spread like dosa, drizzle oil, and cook until crisp. Serve with ginger chutney.",
+      },
     ],
   },
 
@@ -90,7 +142,7 @@ export const meals = [
       {
         name: "Sambar Rice",
         prepTime: "35 mins",
-        imageSrc:SambarSathamImage,
+        imageSrc: SambarSathamImage,
         ingredients: [
           "Rice",
           "Toor dal",
@@ -106,7 +158,7 @@ export const meals = [
       {
         name: "Curd Rice",
         prepTime: "10 mins",
-        imageSrc:CurdRiceImage,
+        imageSrc: CurdRiceImage,
         ingredients: [
           "Cooked rice",
           "Curd",
@@ -134,6 +186,38 @@ export const meals = [
         ],
         instructions:
           "Marinate chicken with curd, biryani masala, and salt. Fry onions until golden, add tomato and cook to a masala, then add marinated chicken and cook partially. Layer partly cooked rice over chicken, drizzle ghee, cover tightly, and dum cook on low flame for 20–25 minutes. Serve hot with raita.",
+      },
+      {
+        name: "Lemon Rice",
+        prepTime: "15 mins",
+        imageSrc: LemonRiceImage,
+        ingredients: [
+          "Cooked rice",
+          "Lemon juice",
+          "Turmeric",
+          "Mustard seeds",
+          "Peanuts",
+          "Oil",
+          "Salt",
+        ],
+        instructions:
+          "Heat oil, sauté mustard seeds, peanuts, and turmeric. Mix with cooked rice, add lemon juice and salt. Toss well and serve.",
+      },
+      {
+        name: "Paneer Butter Masala",
+        prepTime: "35 mins",
+        imageSrc: PaneerButterMasalaImage,
+        ingredients: [
+          "Paneer",
+          "Tomatoes",
+          "Cashews",
+          "Cream",
+          "Butter",
+          "Spices",
+          "Salt",
+        ],
+        instructions:
+          "Blend cooked tomatoes and cashews into a puree. Sauté spices in butter, add puree, cream, and paneer cubes. Cook until thick and serve with rice or roti.",
       },
     ],
   },
@@ -181,6 +265,29 @@ export const meals = [
         instructions:
           "Marinate chicken with yogurt, spices, cornflour, and salt for at least 30 minutes. Deep fry in hot oil until crispy and cooked through. Serve hot with onion and lemon wedges.",
       },
+      {
+        name: "Masala Dosa",
+        prepTime: "30 mins",
+        imageSrc: MasalaDosaImage,
+        ingredients: ["Dosa batter", "Potato masala", "Oil"],
+        instructions:
+          "Make a thin dosa, place potato masala inside, fold and serve hot with chutney and sambar.",
+      },
+      {
+        name: "Veg Kothu Parotta",
+        prepTime: "35 mins",
+        imageSrc: VegKothuParottaImage,
+        ingredients: [
+          "Parotta",
+          "Vegetables",
+          "Egg (optional)",
+          "Salna",
+          "Oil",
+          "Salt",
+        ],
+        instructions:
+          "Shred parottas, sauté vegetables with spices, mix in salna, add shredded parotta and toss on high heat. Serve hot.",
+      },
     ],
   },
 
@@ -190,7 +297,7 @@ export const meals = [
       {
         name: "Dosa",
         prepTime: "20 mins",
-        imageSrc:DosaImage,
+        imageSrc: DosaImage,
         ingredients: ["Rice batter", "Urad dal", "Salt", "Oil"],
         instructions:
           "Heat a non-stick pan on medium flame. Pour a ladle of batter and spread it thin in a circular motion. Drizzle oil around the edges and cook until crispy and golden. Fold and serve hot with chutney or sambar.",
@@ -239,6 +346,28 @@ export const meals = [
         ],
         instructions:
           "Spread tomato sauce on the pizza base, top with mozzarella and basil leaves. Drizzle olive oil, bake in a preheated oven at high temperature until the crust is golden and cheese is melted. Slice and serve hot.",
+      },
+      {
+        name: "Veg Pulao",
+        prepTime: "30 mins",
+        imageSrc: VegPulaoImage,
+        ingredients: [
+          "Basmati rice",
+          "Vegetables",
+          "Whole spices",
+          "Oil or ghee",
+          "Salt",
+        ],
+        instructions:
+          "Sauté whole spices and vegetables, add rice and water, cook until fluffy. Serve with raita.",
+      },
+      {
+        name: "Aloo Gobi",
+        prepTime: "25 mins",
+        imageSrc: AlooGobiImage,
+        ingredients: ["Potato", "Cauliflower", "Spices", "Oil", "Salt"],
+        instructions:
+          "Sauté potatoes and cauliflower with spices. Cover and cook until tender. Serve with roti or rice.",
       },
     ],
   },
@@ -310,6 +439,37 @@ export const meals = [
         instructions:
           "Marinate fish pieces with chili powder, turmeric, lemon juice, and salt for 15–20 minutes. Heat oil in a pan and shallow fry the fish on both sides until golden and cooked through. Serve hot with onion slices and lemon.",
       },
+      {
+        name: "Egg Curry",
+        prepTime: "25 mins",
+        imageSrc: EggCurryImage,
+        ingredients: [
+          "Boiled eggs",
+          "Onion",
+          "Tomato",
+          "Spices",
+          "Oil",
+          "Salt",
+        ],
+        instructions:
+          "Prepare onion-tomato masala with spices, add boiled eggs, simmer for a few minutes, and serve with rice or roti.",
+      },
+      {
+        name: "Mutton Curry",
+        prepTime: "70 mins",
+        imageSrc: MuttonCurryImage,
+        ingredients: [
+          "Mutton",
+          "Onion",
+          "Tomato",
+          "Ginger-garlic paste",
+          "Spices",
+          "Oil",
+          "Salt",
+        ],
+        instructions:
+          "Pressure cook mutton with spices, prepare masala, combine and simmer until thick. Serve hot.",
+      },
     ],
   },
 
@@ -365,7 +525,7 @@ export const meals = [
       {
         name: "Chapati",
         prepTime: "25 mins",
-        imageSrc : ChappatiImage,
+        imageSrc: ChappatiImage,
         ingredients: ["Wheat flour", "Water", "Salt", "Oil (optional)"],
         instructions:
           "Knead wheat flour, salt, and water into a soft dough. Rest for 10 minutes. Roll into thin circles and cook on a hot tawa until brown spots appear on both sides. Serve hot with curry.",
@@ -387,6 +547,29 @@ export const meals = [
         instructions:
           "Marinate chicken with curd, biryani masala, and salt. Fry onions until golden, add tomato and cook to a masala, then add marinated chicken and cook partially. Layer partly cooked rice over chicken, drizzle ghee, cover tightly, and dum cook on low flame for 20–25 minutes. Serve hot with raita.",
       },
+      {
+        name: "Pav Bhaji",
+        prepTime: "35 mins",
+        imageSrc: PavBhajiImage,
+        ingredients: [
+          "Mixed vegetables",
+          "Pav buns",
+          "Butter",
+          "Pav bhaji masala",
+          "Onion",
+          "Tomato",
+        ],
+        instructions:
+          "Cook vegetables and mash well. Sauté spices in butter, add mashed veggies, simmer. Toast pav in butter and serve.",
+      },
+      {
+        name: "Chole",
+        prepTime: "40 mins",
+        imageSrc: CholeImage,
+        ingredients: ["Chickpeas", "Onion", "Tomato", "Spices", "Oil", "Salt"],
+        instructions:
+          "Cook chickpeas, prepare onion-tomato masala with spices, add chickpeas and simmer. Serve with puri or rice.",
+      },
     ],
   },
 
@@ -396,6 +579,7 @@ export const meals = [
       {
         name: "Veg Fried Noodles",
         prepTime: "25 mins",
+        imageSrc: VegNoodlesImage,
         ingredients: [
           "Noodles",
           "Carrot",
@@ -445,6 +629,35 @@ export const meals = [
         instructions:
           "Marinate chicken with cornflour, soy sauce, and salt, then deep fry until crisp. Sauté garlic, onion, and capsicum, add sauces and a little water, then toss in fried chicken pieces and cook for a few minutes. Serve hot.",
       },
+      {
+        name: "Schezwan Fried Rice",
+        prepTime: "25 mins",
+        imageSrc: SchezwanRiceImage,
+        ingredients: [
+          "Rice",
+          "Vegetables",
+          "Schezwan sauce",
+          "Soy sauce",
+          "Oil",
+          "Salt",
+        ],
+        instructions:
+          "Stir fry vegetables, add sauces and cooked rice, toss on high flame. Serve hot.",
+      },
+      {
+        name: "Spring Rolls",
+        prepTime: "30 mins",
+        imageSrc: SpringRollImage,
+        ingredients: [
+          "Spring roll sheets",
+          "Vegetables",
+          "Soy sauce",
+          "Oil",
+          "Salt",
+        ],
+        instructions:
+          "Stuff rolls with stir-fried veggies, roll tightly, deep fry until golden, serve hot.",
+      },
     ],
   },
 
@@ -469,6 +682,7 @@ export const meals = [
       {
         name: "Pasta in White Sauce",
         prepTime: "30 mins",
+        imageSrc: WhiteSaucePastaImage,
         ingredients: [
           "Pasta",
           "Butter",
@@ -484,9 +698,33 @@ export const meals = [
       {
         name: "Garlic Bread",
         prepTime: "20 mins",
+        imageSrc : GarlicBreadImage,
         ingredients: ["Bread", "Butter", "Garlic", "Mixed herbs", "Salt"],
         instructions:
           "Mix softened butter with minced garlic, herbs, and salt. Spread on bread slices and toast in an oven or pan until crisp and lightly golden. Serve warm.",
+      },
+      {
+        name: "Penne Arrabbiata",
+        prepTime: "25 mins",
+        imageSrc: ArrabbiataImage,
+        ingredients: [
+          "Penne",
+          "Tomato sauce",
+          "Garlic",
+          "Chili flakes",
+          "Olive oil",
+          "Salt",
+        ],
+        instructions:
+          "Cook penne, prepare spicy tomato garlic sauce, mix together and simmer for a minute. Serve hot.",
+      },
+      {
+        name: "Cheese Garlic Pizza",
+        prepTime: "30 mins",
+        imageSrc: GarlicPizzaImage,
+        ingredients: ["Pizza base", "Cheese", "Garlic butter", "Herbs"],
+        instructions:
+          "Spread garlic butter and cheese on base, bake until golden and bubbly. Serve hot.",
       },
     ],
   },

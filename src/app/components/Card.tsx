@@ -1,6 +1,6 @@
 import { StaticImport } from "next/dist/shared/lib/get-img-props";
 import Image from "next/image";
-import DefaultFoodImage from "@/app/images/meals/default_food.png"
+import DefaultFoodImage from "@/app/images/meals/default_food.png";
 
 type CardType = {
   imageSrc?: string | StaticImport;
@@ -8,7 +8,7 @@ type CardType = {
   prepTime: string;
   ingredients: string;
   instructions: string;
-  key?: string|number
+  key?: string | number;
 };
 
 type CardDetailsType = {
@@ -28,10 +28,17 @@ const CardDetails = (props: CardDetailsType) => {
 };
 
 export default function Card(props: CardType) {
-  const { imageSrc, name, prepTime, ingredients, instructions,key } = props;
+  const { imageSrc, name, prepTime, ingredients, instructions, key } = props;
   return (
-    <div className="w-[450px] bg-gray-100 text-black border-2 border-black rounded p-2" key={key}>
-      <Image src={imageSrc || DefaultFoodImage} alt="Idly" className="w-full h-[50%] border-[2px]" />
+    <div
+      className="w-[450px] bg-gray-100 text-black border-2 border-black rounded p-2"
+      key={key}
+    >
+      <Image
+        src={imageSrc || DefaultFoodImage}
+        alt="Idly"
+        className="w-full h-[50%] border-[2px]"
+      />
       <div className="text-left flex flex-col pt-2 ">
         <CardDetails title="Name 🍲: " description={name} />
         <CardDetails title="Preparation Time 🕒: " description={prepTime} />
