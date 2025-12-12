@@ -30,9 +30,9 @@ const CardDetails = (props: CardDetailsType) => {
 export default function Card(props: CardType) {
   const { imageSrc, name, prepTime, ingredients, instructions,key } = props;
   return (
-    <div className="w-[450px] h-[700px] bg-white text-black border-2 border-black rounded p-2" key={key}>
+    <div className="w-[450px] bg-white text-black border-2 border-black rounded p-2" key={key}>
       <Image src={imageSrc || DefaultFoodImage} alt="Idly" className="w-full h-[50%] border-[2px]" />
-      <div className="text-left flex flex-col pt-2">
+      <div className="text-left flex flex-col pt-2 ">
         <CardDetails title="Name 🍲: " description={name} />
         <CardDetails title="Preparation Time 🕒: " description={prepTime} />
         <CardDetails title="Ingredients 🫛: " description={ingredients} />

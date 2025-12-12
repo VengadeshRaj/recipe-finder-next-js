@@ -17,7 +17,7 @@ export default function HomePage() {
       <div className="relative flex flex-col items-center justify-center h-full text-white text-center gap-5">
         <h1 className="text-5xl m-10">Find the Perfect Recipe for Every Mood 😋</h1>
         <h1 className="text-3xl">
-          Your one-stop destination for tasty and healthy recipes!
+          Find the perfect recipe to match your taste, mood, and lifestyle!
         </h1>
         <h1 className="text-3xl">🍴🍝</h1>
         <h1 className="text-3xl">Pick. Cook. Enjoy!🔥 </h1>
