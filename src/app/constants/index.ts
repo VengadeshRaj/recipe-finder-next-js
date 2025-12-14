@@ -32,7 +32,23 @@ import {
   ArrabbiataImage,
   GarlicPizzaImage,
   WhiteSaucePastaImage,
-  GarlicBreadImage
+  GarlicBreadImage,
+  RavaDosaImage,
+  VadaImage,
+  ChickenFriedRiceImage,
+  EggFriedRiceImage,
+  FishCurryImage,
+  Gobi65Image,
+  JeeraRiceImage,
+  LasagnaImage,
+  MasalaVadaImage,
+  MushroomRisottoImage,
+  PalakPaneerImage,
+  PaneerTikkaImage,
+  PepperChickenImage,
+  PrawnFryImage,
+  RajmaRiceImage,
+  VegKurmaImage
 } from "@/app/images/meals";
 
 export const categories = {
@@ -119,12 +135,74 @@ export const meals = [
         instructions:
           "Blend soaked green gram with spices to make batter. Pour on a hot pan, spread like dosa, drizzle oil, and cook until crisp. Serve with ginger chutney.",
       },
+      {
+        name: "Rava Dosa",
+        prepTime: "20 mins",
+        imageSrc: RavaDosaImage,
+        ingredients: [
+          "Rava",
+          "Rice flour",
+          "Cumin",
+          "Green chili",
+          "Salt",
+          "Oil",
+        ],
+        instructions:
+          "Prepare thin batter with rava and rice flour. Pour on hot tawa, drizzle oil, cook until crisp. Serve hot with chutney.",
+      },
+      {
+        name: "Vada",
+        prepTime: "25 mins",
+        imageSrc: VadaImage,
+        ingredients: [
+          "Urad dal",
+          "Onion",
+          "Green chili",
+          "Curry leaves",
+          "Oil",
+          "Salt",
+        ],
+        instructions:
+          "Grind soaked urad dal to thick batter, mix spices, shape vadas and deep fry until golden. Serve hot with chutney.",
+      },
     ],
   },
 
   {
     code: "ln",
     foods: [
+      {
+        name: "Rajma Rice",
+        prepTime: "45 mins",
+        imageSrc: RajmaRiceImage,
+        ingredients: [
+          "Rajma",
+          "Rice",
+          "Onion",
+          "Tomato",
+          "Spices",
+          "Oil",
+          "Salt",
+        ],
+        instructions:
+          "Cook rajma until soft. Prepare onion-tomato gravy, add rajma and simmer. Serve hot with steamed rice.",
+      },
+      {
+        name: "Fish Curry",
+        prepTime: "35 mins",
+        imageSrc: FishCurryImage,
+        ingredients: [
+          "Fish",
+          "Tamarind",
+          "Onion",
+          "Tomato",
+          "Spices",
+          "Oil",
+          "Salt",
+        ],
+        instructions:
+          "Prepare tamarind-based gravy, add fish pieces and cook gently until done. Serve with rice.",
+      },
       {
         name: "Veg Biryani",
         prepTime: "45 mins",
@@ -226,6 +304,23 @@ export const meals = [
     code: "dn",
     foods: [
       {
+        name: "Egg Fried Rice",
+        prepTime: "25 mins",
+        imageSrc: EggFriedRiceImage,
+        ingredients: ["Rice", "Eggs", "Garlic", "Soy sauce", "Oil", "Salt"],
+        instructions:
+          "Scramble eggs, add garlic and rice, season with soy sauce, toss on high flame and serve hot.",
+      },
+      {
+        name: "Paneer Tikka",
+        prepTime: "30 mins",
+        imageSrc: PaneerTikkaImage,
+        ingredients: ["Paneer", "Curd", "Spices", "Capsicum", "Onion"],
+        instructions:
+          "Marinate paneer and veggies, grill or pan-fry until charred. Serve with mint chutney.",
+      },
+
+      {
         name: "Chapati",
         prepTime: "25 mins",
         imageSrc: ChappatiImage,
@@ -294,6 +389,23 @@ export const meals = [
   {
     code: "veg",
     foods: [
+      {
+        name: "Vegetable Kurma",
+        prepTime: "30 mins",
+        imageSrc: VegKurmaImage,
+        ingredients: ["Mixed vegetables", "Coconut", "Spices", "Oil", "Salt"],
+        instructions:
+          "Prepare coconut masala, add vegetables and cook until soft. Serve with roti or parotta.",
+      },
+      {
+        name: "Palak Paneer",
+        prepTime: "30 mins",
+        imageSrc: PalakPaneerImage,
+        ingredients: ["Spinach", "Paneer", "Garlic", "Cream", "Spices"],
+        instructions:
+          "Blend cooked spinach, sauté with spices, add paneer cubes and simmer. Serve hot.",
+      },
+
       {
         name: "Dosa",
         prepTime: "20 mins",
@@ -375,6 +487,30 @@ export const meals = [
   {
     code: "nonVeg",
     foods: [
+      {
+        name: "Pepper Chicken",
+        prepTime: "35 mins",
+        imageSrc: PepperChickenImage,
+        ingredients: [
+          "Chicken",
+          "Pepper",
+          "Garlic",
+          "Curry leaves",
+          "Oil",
+          "Salt",
+        ],
+        instructions:
+          "Sauté garlic and curry leaves, add chicken and pepper. Cook until dry and well coated.",
+      },
+      {
+        name: "Prawn Fry",
+        prepTime: "20 mins",
+        imageSrc: PrawnFryImage,
+        ingredients: ["Prawns", "Chili powder", "Turmeric", "Oil", "Salt"],
+        instructions:
+          "Marinate prawns with spices and shallow fry until crisp. Serve hot.",
+      },
+
       {
         name: "Chicken Biryani",
         prepTime: "60 mins",
@@ -477,6 +613,23 @@ export const meals = [
     code: "ind",
     foods: [
       {
+        name: "Masala Vada",
+        prepTime: "25 mins",
+        imageSrc: MasalaVadaImage,
+        ingredients: ["Chana dal", "Onion", "Chili", "Fennel seeds", "Oil"],
+        instructions:
+          "Grind dal coarsely, mix spices, shape vadas and deep fry until crispy.",
+      },
+      {
+        name: "Jeera Rice",
+        prepTime: "20 mins",
+        imageSrc: JeeraRiceImage,
+        ingredients: ["Rice", "Cumin seeds", "Ghee", "Salt"],
+        instructions:
+          "Temper cumin in ghee, add cooked rice and salt, mix gently and serve.",
+      },
+
+      {
         name: "Dosa",
         prepTime: "20 mins",
         imageSrc: DosaImage,
@@ -577,6 +730,23 @@ export const meals = [
     code: "chi",
     foods: [
       {
+        name: "Gobi 65",
+        prepTime: "30 mins",
+        imageSrc: Gobi65Image,
+        ingredients: ["Cauliflower", "Cornflour", "Spices", "Oil", "Salt"],
+        instructions:
+          "Fry battered cauliflower and toss with spices. Serve hot.",
+      },
+      {
+        name: "Chicken Fried Rice",
+        prepTime: "30 mins",
+        imageSrc: ChickenFriedRiceImage,
+        ingredients: ["Rice", "Chicken", "Garlic", "Soy sauce", "Oil", "Salt"],
+        instructions:
+          "Stir fry chicken, add rice and sauces, toss on high flame and serve.",
+      },
+
+      {
         name: "Veg Fried Noodles",
         prepTime: "25 mins",
         imageSrc: VegNoodlesImage,
@@ -665,6 +835,23 @@ export const meals = [
     code: "ita",
     foods: [
       {
+        name: "Lasagna",
+        prepTime: "45 mins",
+        imageSrc: LasagnaImage,
+        ingredients: ["Lasagna sheets", "Tomato sauce", "Cheese", "Veggies"],
+        instructions:
+          "Layer sheets with sauce and cheese, bake until bubbly and golden.",
+      },
+      {
+        name: "Mushroom Risotto",
+        prepTime: "35 mins",
+        imageSrc: MushroomRisottoImage,
+        ingredients: ["Rice", "Mushrooms", "Butter", "Stock", "Cheese"],
+        instructions:
+          "Slow cook rice with stock and mushrooms, finish with butter and cheese.",
+      },
+
+      {
         name: "Margherita Pizza",
         prepTime: "35 mins",
         imageSrc: PizzaImage,
@@ -698,7 +885,7 @@ export const meals = [
       {
         name: "Garlic Bread",
         prepTime: "20 mins",
-        imageSrc : GarlicBreadImage,
+        imageSrc: GarlicBreadImage,
         ingredients: ["Bread", "Butter", "Garlic", "Mixed herbs", "Salt"],
         instructions:
           "Mix softened butter with minced garlic, herbs, and salt. Spread on bread slices and toast in an oven or pan until crisp and lightly golden. Serve warm.",
