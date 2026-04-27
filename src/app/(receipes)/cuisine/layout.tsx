@@ -1,5 +1,5 @@
 import Image from "next/image";
-import CuisineBackground from "@/app/images/cusine-background.jpg";
+import CuisineBackground from "@/app/images/cusine-background.webp";
 
 export default function Layout({ children }: { children: React.ReactNode }) {
   return (

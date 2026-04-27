@@ -1,5 +1,5 @@
 import Image from "next/image";
-import MealTypeImage from "@/app/images/mealtype-background.jpg";
+import MealTypeImage from "@/app/images/mealtype-background.webp";
 
 export default function Layout({ children }: { children: React.ReactNode }) {
   return (

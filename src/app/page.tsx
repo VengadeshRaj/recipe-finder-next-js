@@ -1,6 +1,6 @@
 import Image from "next/image";
 import Link from "next/link";
-import HomeBackGround from "@/app/images/home-background.jpg";
+import HomeBackGround from "@/app/images/home-background.webp";
 
 export default function HomePage() {
   return (

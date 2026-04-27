@@ -1,6 +1,6 @@
 import { StaticImport } from "next/dist/shared/lib/get-img-props";
 import Image from "next/image";
-import DefaultFoodImage from "@/app/images/meals/default_food.png";
+import DefaultFoodImage from "@/app/images/meals/default_food.webp";
 
 type CardType = {
   imageSrc?: string | StaticImport;
@@ -40,10 +40,10 @@ export default function Card(props: CardType) {
         className="w-full h-[50%] border-[2px]"
       />
       <div className="text-left flex flex-col pt-2 ">
-        <CardDetails title="Name 🍲: " description={name} />
-        <CardDetails title="Preparation Time 🕒: " description={prepTime} />
-        <CardDetails title="Ingredients 🫛: " description={ingredients} />
-        <CardDetails title="Instructions 🗒️: " description={instructions} />
+        <CardDetails title="Name: " description={name} />
+        <CardDetails title="Preparation Time: " description={prepTime} />
+        <CardDetails title="Ingredients: " description={ingredients} />
+        <CardDetails title="Instructions: " description={instructions} />
       </div>
     </div>
   );

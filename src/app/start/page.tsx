@@ -1,6 +1,6 @@
 import Link from "next/link";
 import Image from "next/image";
-import SelectCatogory from "@/app/images/start-background.jpg";
+import SelectCatogory from "@/app/images/start-background.webp";
 
 export default function SelectYourCatogory() {
   return (
@@ -21,19 +21,19 @@ export default function SelectYourCatogory() {
           href="meal-type"
           className="flex flex-row text-3xl gap-2 bg-transparent px-4 py-1 rounded"
         >
-          <span>🥄</span> <div className="hover:underline">Meal Type</div>
+          <div className="hover:underline">Meal Type</div>
         </Link>
         <Link
           href="food-type"
           className="flex flex-row text-3xl gap-2 bg-transparent px-4 py-1 rounded"
         >
-          <span>🥄</span> <div className="hover:underline">Food Type</div>
+          <div className="hover:underline">Food Type</div>
         </Link>
         <Link
           href="cuisine"
           className="flex flex-row text-3xl gap-2 bg-transparent px-4 py-1 rounded"
         >
-          <span>🥄</span> <div className="hover:underline">Cuisine</div>
+          <div className="hover:underline">Cuisine</div>
         </Link>
         </div>
       </div>
